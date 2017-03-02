@@ -5,8 +5,8 @@
 .dropbtn {
     background-color: #4CAF50;
     color: white;
-    padding: 8px;
-    font-size: 8px;
+    padding: 6px;
+    font-size: 6px;
     border: none;
     cursor: pointer;
 }
@@ -22,7 +22,7 @@
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 80px;
+    min-width: 30px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
@@ -30,7 +30,7 @@
 /* Links inside the dropdown */
 .dropdown-content a {
     color: black;
-    padding: 12px 16px;
+    padding: 8px 12px;
     text-decoration: none;
     display: block;
 }
@@ -48,11 +48,11 @@
     background-color: #3e8e41;
 }
 
-ul {
+nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 150%;
+    width: 60%;
     background-color: #f1f1f1;
     border: 1px solid #555;
     top: 0;
@@ -63,7 +63,7 @@ ul {
 li a {
     display: block;
     color: #000;
-    padding: 8px 16px;
+    padding: 8px 12px;
     text-decoration: none;
     width: 90px;
 }
@@ -93,7 +93,7 @@ li:last-child {
 
 a {
 	display: inline-block;
-	padding: 8px;
+	padding: 6px;
 	background-color: #dddddd;
 }
 
@@ -129,15 +129,19 @@ h1 {
 }
 
 p {
-  float: left;
+ 
   width: 60%;
 }
 
 h2 {
   text-decoration: underline;
 }
-h3 {
-  align: left;
+
+section {
+  margin: 20px;
 }
 
 
+ol {
+  list-style-type: disc;
+}
