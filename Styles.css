@@ -98,16 +98,10 @@ a {
 }
 
 h1 {
+ background-color: red;
+ margin: 10px;
+ color: white;
 
-}
-
-#picme {
-
-  float: left;
-  height: 100px;
-  width: 100px;
-
-  
 }
 
 #babyme {
@@ -115,9 +109,19 @@ h1 {
   float: left;
   height: 100px;
   width: 100px;
-    -moz-transform: rotate(90deg); 
-    -ms-transform: rotate(90deg); 
-    -webkit-transform: rotate(90deg);
+  display: block;
+
+  
+}
+
+#picme {
+
+  float: left;
+  height: 100px;
+  width: 100px;
+  -moz-transform: rotate(90deg); 
+  -ms-transform: rotate(90deg); 
+  -webkit-transform: rotate(90deg);
   
 }
 
@@ -144,4 +148,10 @@ section {
 
 ol {
   list-style-type: disc;
+}
+.images {
+  display: block;
+}
+.education {
+  display: block;
 }
