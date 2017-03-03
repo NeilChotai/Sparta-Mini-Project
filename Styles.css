@@ -177,7 +177,8 @@ h3 {
   color: white;
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 500px) { {
   width: 33%;
   height: 50%;
+}
 }
