@@ -1,4 +1,8 @@
+body {
+  width: 100%;
+  background-color: #0C4767;
 
+}
 
 
   /* Dropdown Button */
@@ -92,66 +96,88 @@ li:last-child {
 }
 
 a {
-	display: inline-block;
-	padding: 6px;
-	background-color: #dddddd;
+	 display: inline-block;
+	 padding: 6px;
+	 background-color: #dddddd;
 }
 
 h1 {
- background-color: red;
- margin: 10px;
- color: white;
+   background-color: red;
+   margin: 10px;
+   color: white;
 
-}
-
-#babyme {
-
-  float: left;
-  height: 100px;
-  width: 100px;
-  display: block;
-
-  
 }
 
 #picme {
 
-  float: left;
-  height: 100px;
-  width: 100px;
-  -moz-transform: rotate(90deg); 
-  -ms-transform: rotate(90deg); 
-  -webkit-transform: rotate(90deg);
+   float: left;
+   height: 100px;
+   width: 100px;
+   -moz-transform: rotate(90deg); 
+   -ms-transform: rotate(90deg); 
+   -webkit-transform: rotate(90deg);
   
 }
 
-
-
 #title {
-  margin: 40px;
-
+   margin: 40px;
+   clear: both;
+   display: block;
+   color: white;
+ 
 }
 
 p {
- 
-  width: 60%;
+   width: 100%;
+   background-color: red;
+   color: white;
+   border-style: solid;
+   border-color: black
+
 }
 
 h2 {
-  text-decoration: underline;
+   text-decoration: underline;
+   color: white;
 }
 
 section {
-  margin: 20px;
+   margin: 20px;
+   display: block;
 }
 
 
 ol {
-  list-style-type: disc;
+   list-style-type: disc;
 }
+
 .images {
-  display: block;
+   display: block;
 }
+
 .education {
-  display: block;
+   display: block;
+}
+
+
+#imageme {
+   display: block;
+   width: 100%;
+}
+
+#picme {
+    margin: 25px;
+    height: 150px;
+    width: 200px;
+}
+
+section#education {
+   clear: both;
+   display: block;
+}
+
+
+
+h3 {
+  color: white;
 }
