@@ -61,9 +61,7 @@ nav {
     width: 60%;
     background-color: #f1f1f1;
     border: 1px solid #555;
-    top: 0;
-    
-   
+    top: 0;   
 }
 
 li a {
@@ -89,8 +87,6 @@ li {
     text-align: center;
     border-bottom: 1px solid #555;
     float: left;
-    
-
 }
 
 li:last-child {
@@ -107,26 +103,22 @@ h1 {
    background-color: black;
    margin: 10px;
    color: white;
-
 }
 
 #picme, #badge {
-
    height: 150px;
    width: 150px;
    -moz-transform: rotate(90deg); 
    -ms-transform: rotate(90deg); 
    -webkit-transform: rotate(90deg);
    text-align: center;
-  
 }
 
 #title {
    margin: 40px;
    clear: both;
    display: block;
-   color: white;
- 
+   color: white; 
 }
 
 p {
@@ -135,7 +127,6 @@ p {
    color: white;
    border-style: solid;
    border-color: orange;
-
 }
 
 h2 {
@@ -165,7 +156,6 @@ ol {
 .education {
    display: block;
 }
-
 
 #imageme, #lcfc {
    display: block;
